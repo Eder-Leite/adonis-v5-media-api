@@ -1,0 +1,31 @@
+{
+  "name": "media-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node ace build",
+    "start": "node ace serve --watch"
+  },
+  "devDependencies": {
+    "@adonisjs/assembler": "^2.0.0",
+    "adonis-preset-ts": "^1.0.4",
+    "pino-pretty": "^4.0.0",
+    "sqlite3": "^4.2.0",
+    "typescript": "^3.8.3",
+    "youch": "^2.0.10",
+    "youch-terminal": "^1.0.0"
+  },
+  "dependencies": {
+    "@adonisjs/ace": "^6.0.0",
+    "@adonisjs/auth": "^4.1.4",
+    "@adonisjs/core": "^5.0.0-preview-rc",
+    "@adonisjs/fold": "^6.0.0",
+    "@adonisjs/lucid": "^8.1.0",
+    "@adonisjs/session": "^3.0.0",
+    "@adonisjs/view": "^2.0.0",
+    "nodemailer": "^6.4.6",
+    "oracledb": "^4.2.0",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.19"
+  }
+}
